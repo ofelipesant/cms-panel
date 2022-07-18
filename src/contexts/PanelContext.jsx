@@ -4,7 +4,7 @@ export const panelContext = createContext()
 
 export const PanelContextProvider = ({children}) => {
     const [products, setProducts] = useState()
-    const [orders, setOrders] = useState([])
+    const [orders, setOrders] = useState()
 
     return(
         <panelContext.Provider value={{
